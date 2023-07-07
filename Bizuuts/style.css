@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background: rgb(74,24,93);
+    background: linear-gradient(#2e436e, #4a185d);
+    background-attachment:fixed;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;    
+}
+.avatar_principal{
+    animation: avatar-principal 1.5s linear infinite alternate;
+}
+.bizuuts-img img{
+    width: 330px;
+    margin: 50px auto;
+}
+.avatar_direito{
+    height: 350px;
+    position: absolute;
+    right: -20px;
+    top: 90px;
+    animation: avatar-direito 4s ease-in-out infinite alternate;
+}
+.avatar_esquerdo{
+    height: 350px;
+    position: absolute;
+    top: 90px;
+    left:-20px;
+    animation: avatar-esquerdo 4s ease-in-out  infinite alternate;
+}
+.avatar-baixo{
+    width: 150px;
+    margin: 0 auto;
+    animation: avatar-baixo 1.5s linear infinite alternate;
+    bottom: 0;
+    display: none;
+}
+.redes-sociais{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 50px 0;
+    position: relative;
+}
+.redes-sociais li a{
+    border: 3px solid rgba(255, 255, 255, 0.92);
+    background-color: rgba(246, 244, 253, 0.07);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-weight: 500;
+    width: 40%;
+    margin: 20px auto;
+    display: block;
+    padding: 20px;
+    transition: background 0.2s linear;
+    position: relative;
+    
+    
+}
+.redes-sociais li a i{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    content: '';
+    display: block;
+    border-left: none;
+    border-top: none;
+    font-size: 30px;
+    
+}
+.redes-sociais li a:hover{
+    box-shadow: 3px 3px 15px black;
+}
+.instagram-button:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    color: white;
+}
+.twitter-button:hover{
+    background: #1DA1F2;
+}
+.spotify-button:hover{
+    background: #1DB954;
+}
+.twitch-button:hover{
+    background: #6441a5;
+}
+.youtube-button:hover{
+    background: #FF0000;
+}
+.tiktok-button:hover{
+    background: rgb(0,242,234);
+    background: linear-gradient(90deg, rgba(0,242,234,1) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 65%, rgba(255,0,80,1) 100%);
+}
+
+@media screen and (max-width: 1100px) {
+    .avatar_direito{
+        height: 250px;
+    }
+    .avatar_esquerdo{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 768px) {
+    html{
+        height: 100vh;
+    }
+    .redes-sociais{
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .redes-sociais li a{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .avatar_esquerdo{
+        display: none;
+        animation: none;
+    }
+    .avatar_direito{
+        display: none;
+        animation: none;
+    }
+    .avatar-baixo{
+        display:block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bizuuts-img img{
+        width: 250px;
+        margin: 50px auto;
+    }   
+    .redes-sociais{
+        text-align: center;
+        font-size: 1em;
+        
+    }
+    .redes-sociais li a{
+        color: white;
+        display: block;
+        padding: 15px;
+        border: 2px solid white;
+        border-radius: 30px;
+        font-weight: 500;
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+}
+
+@keyframes avatar-principal{
+                from{
+                    transform: translatey(-10px);
+                }
+            }
+@keyframes avatar-esquerdo{
+                from{
+                    transform: translatex(-99%);
+                }
+            }
+@keyframes avatar-direito{
+                from{
+                    transform: translatex(99%);
+                }
+            }
+@keyframes avatar-baixo{
+                from{
+                    transform: translatey(20px);
+                }
+            }
