@@ -1,4 +1,5 @@
 Streamer Bizuuts
+
  O projeto consiste na criação de um site personalizado para um streamer, cujo principal objetivo é fornecer aos visitantes uma maneira fácil e intuitiva de acessar suas diferentes redes sociais. O site foi projetado com um layout simples, limpo, moderno e descontraído, com destaque para os botões das redes sociais do streamer.
 
 Recursos Implementados:
