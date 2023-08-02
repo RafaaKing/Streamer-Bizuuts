@@ -8,10 +8,11 @@ Recursos Implementados:
 Tecnologias Utilizadas:
 - HTML: Utilizado para estruturar o conteúdo do site e os links das redes sociais.
 - CSS: Utilizado para estilizar, criando uma aparência atraente e também para fazer as animações e interatividades do site.
+- 
+![Projeto Streamer](https://github.com/RafaaKing/Streamer-Bizuuts/assets/138323110/71b0fbaa-3ddb-4f57-a46f-fd2b7186d303)
 
 Fique à vontade para explorar o código-fonte e utilizar como referência para criar seu próprio site de redes sociais!
 
 Contribuições e sugestões são sempre bem-vindas. Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 Acesse o site online em: https://bizuuts.com.br
-![Projeto Streamer](https://github.com/RafaaKing/Streamer-Bizuuts/assets/138323110/71b0fbaa-3ddb-4f57-a46f-fd2b7186d303)
